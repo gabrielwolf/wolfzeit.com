@@ -5,6 +5,7 @@ web/app/mu-plugins/*/
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
+web/app/languages
 
 # WordPress
 web/wp
@@ -29,3 +30,17 @@ node_modules
 # Vagrant
 bin
 .vagrant
+
+# Stuff
+extended
+Notizen
+backups
+
+# Sensible Information
+Gruntfile.js
+!Gruntfile.js.example
+
+# Theme
+dist
+bower_components
+npm-debug.log
