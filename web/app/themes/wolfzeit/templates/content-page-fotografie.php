@@ -6,7 +6,7 @@
 	'orderby'            => 'name',
 	'order'              => 'ASC',
 	'style'              => 'none',
-	'show_count'         => 1,
+	'show_count'         => 0,
 	'hide_empty'         => 1,
 	'use_desc_for_title' => 1,
 	'child_of'           => 8,

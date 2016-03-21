@@ -81,6 +81,8 @@
 	color: #fff;
 }
 
+/* --------- Navbar --------- */
+
 .navbar-nav { margin-top: 2px; }
 .navbar-brand { margin-bottom: 4px; }
 .navbar-brand-line { color: $brand-primary!important; margin-bottom: -4px; }
@@ -88,7 +90,7 @@
 
 /* --------- Hilfsklassen --------- */
 
-.nopadding.nopadding { padding: 0; }
+.nopadding { padding: 0!important; }
 .inline { display: inline; line-height: 100%; }
 .font-white { color: #fff; }
 .transition-0-2-ease {
@@ -111,8 +113,6 @@
 	background: linear-gradient(to bottom, #1a0000 0%,#000 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a0000', endColorstr='#000000',GradientType=0 );
 }
-
-.black-background { background: #000; }
 
 /* --------- Kontaktformular --------- */
 

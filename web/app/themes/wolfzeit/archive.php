@@ -1,6 +1,6 @@
 <?php get_template_part('templates/page', 'header'); ?>
 
-<div class="table-infinite black-background">
+<div class="table-infinite">
 	<div>
 		<?php while (have_posts()) : the_post(); ?>
 		<div>
