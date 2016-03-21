@@ -7,11 +7,11 @@ $sidebar-sm-columns:    0;
 $screen-lg: 			1281px;
 
 // Colors
-$brand-primary:         #e41525;
-$brand-warning: 		#c00;
-$state-danger-bg: 		#f00;
+$brand-primary:         #E52427;
+$brand-warning: 		darken($brand-primary, 10%);
+$state-danger-bg: 		$brand-warning;
 $state-danger-text: 	#fff;
-$state-warning-text: 	#f00;
+$state-warning-text: 	lighten($brand-primary, 10%);
 $state-warning-bg: 		darken($brand-warning, 30%);
 $brand-info: 			#0f0;
 $state-success-bg: 		#0c0;

@@ -23,10 +23,10 @@
 .doubleLoader.theme-light {
     .doubleLoaderTop,
     .doubleLoaderBottom {
-        background-color: #ccc;
+        background-color: #000;
     }
     .doubleLoaderProgBar {
-        background-color: #bbb;
+        background-color: darken($brand-primary, 35%);
     }
     .doubleLoaderProgBar span {
         background-color: $brand-primary;
@@ -85,7 +85,6 @@
 
 .navbar-nav { margin-top: 2px; }
 .navbar-brand { margin-bottom: 4px; }
-.navbar-brand-line { color: $brand-primary!important; margin-bottom: -4px; }
 
 
 /* --------- Hilfsklassen --------- */
@@ -125,7 +124,6 @@
 
 .royalSlider { text-align: left; }
 .visibleNearbyZoom { padding: 0; }
-
 
 /* --------- Archiv --------- */
 

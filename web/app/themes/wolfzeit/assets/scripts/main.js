@@ -69,9 +69,7 @@
                           color: '#000' // #rgb or #rrggbb or array of colors
                         }
                     });
-                    if($(".royalSlider")) {
-                        console.log("Yeah");
-                    }
+
                     setContentContainerWithAndHeight();
 
                     $('.scroll-pane').jScrollPane({
