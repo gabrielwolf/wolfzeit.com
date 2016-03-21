@@ -1,1 +1,43 @@
+html { height: 100%; background: darken($brand-primary, 40%); }
+body { height: 100%; background: darken($brand-primary, 40%); font-family: 'Quicksand', sans-serif; font-weight: 700; font-size: 18px; color: #fff; }
 
+.content-container {
+	position: fixed;
+	top: 30px;
+	left: 0px;
+	margin: 0!important;
+	width: 100%;
+	height: 75%;
+	background: darken($brand-primary, 15%);
+	color: #ccc;
+	box-shadow: inset 0 0 50px 4px rgba(0, 0, 0, 0.5);
+	overflow: auto;
+}
+
+.content { margin: 0; }
+.main > div { width: 100%; height: 100%; }
+
+a:hover, input:hover { transition: all 0.5s ease; }
+input { line-height: normal!important; }
+.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }
+
+/* ------ Posts ------ */
+
+.entry-content { margin-top: 0ex; }
+
+/* ------ jScrollPane ------ */
+
+.jspHorizontalBar { height: 10px; }
+.jspVerticalBar { width: 10px; }
+.jspVerticalBar, .jspTrack, .jspCorner { background: darken($brand-primary, 15%); }
+.jspDrag {
+	border-radius: 10px;
+	background: $brand-primary;
+}
+.jspDrag:hover, .jspDrag:active {
+	background: #fff;
+	transition: background 0.3s ease;
+}

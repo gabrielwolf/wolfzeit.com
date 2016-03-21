@@ -7,9 +7,18 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "3.3.6"
+    "bootstrap-sass": "3.3.6",
+    "fontawesome": "~4.3.0",
+    "jScrollPane": "~2.x",
+    "introloader": "~1.x"
   },
   "overrides": {
+    "introloader": {
+      "main": [
+            "dist/css/introLoader.css",
+            "dist/jquery.introLoader.pack.min.js"
+      ]
+    },
     "bootstrap-sass": {
       "main": [
         "./assets/stylesheets/_bootstrap.scss",
@@ -24,12 +33,7 @@
         "./assets/javascripts/bootstrap/popover.js",
         "./assets/javascripts/bootstrap/scrollspy.js",
         "./assets/javascripts/bootstrap/tab.js",
-        "./assets/javascripts/bootstrap/affix.js",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+        "./assets/javascripts/bootstrap/affix.js"
       ]
     }
   }

@@ -3,7 +3,44 @@ $icon-font-path:        "../fonts/";
 
 // Grid settings
 $main-sm-columns:       12;
-$sidebar-sm-columns:    4;
+$sidebar-sm-columns:    0;
+$screen-lg: 			1281px;
 
 // Colors
 $brand-primary:         #e41525;
+$brand-warning: 		#c00;
+$state-danger-bg: 		#f00;
+$state-danger-text: 	#fff;
+$state-warning-text: 	#f00;
+$state-warning-bg: 		darken($brand-warning, 30%);
+$brand-info: 			#0f0;
+$state-success-bg: 		#0c0;
+$state-success-text: 	#fff;
+
+// Navbar
+$navbar-height: 	50px;
+$navbar-inverse-bg: #000;
+
+// General Stuff
+$border-radius-base: 0px;
+$link-color: $brand-primary;
+$link-hover-color: lighten($link-color, 25%);
+$link-hover-decoration: none;
+
+// Tooltips
+$tooltip-bg: #fff;
+$tooltip-color: #000;
+$tooltip-arrow-color: $tooltip-bg;
+$tooltip-max-width: 300px;
+
+// Forms
+$input-bg: darken($brand-primary, 10%);
+$input-border: darken($brand-primary, 10%);
+$input-color: #efefef;
+$input-color-placeholder: #777;
+
+// Buttons
+$btn-primary-bg: $link-color;
+$btn-primary-bg-hover: darken($link-color, 15%);
+$btn-default-bg: $brand-primary;
+$btn-default-bg-hover: darken($link-color, 15%);

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "80f25dca329d4ad8e4fa79e0ce302ab4",
-    "content-hash": "2c12db21ee987984aacf7054fea38044",
+    "hash": "4439921c17d909437f5acbf847684838",
+    "content-hash": "e0b8382172b8cc5896996c917a12be67",
     "packages": [
         {
             "name": "composer/installers",
@@ -332,6 +332,20 @@
             "time": "2016-03-01 16:27:06"
         },
         {
+            "name": "royalslider",
+            "version": "3.3.1",
+            "dist": {
+                "type": "zip",
+                "url": "http://jibazee.net/plugins/new-royalslider.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0.12"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.2.0",
             "source": {
@@ -383,16 +397,16 @@
             "time": "2015-12-29 15:10:30"
         },
         {
-            "name": "wpackagist-plugin/all-in-one-favicon",
-            "version": "4.3",
+            "name": "wpackagist-plugin/add-from-server",
+            "version": "3.3.1",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/all-in-one-favicon/",
-                "reference": "trunk"
+                "url": "https://plugins.svn.wordpress.org/add-from-server/",
+                "reference": "tags/3.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-favicon.zip",
+                "url": "https://downloads.wordpress.org/plugin/add-from-server.3.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -400,7 +414,27 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/all-in-one-favicon/"
+            "homepage": "https://wordpress.org/plugins/add-from-server/"
+        },
+        {
+            "name": "wpackagist-plugin/ajax-thumbnail-rebuild",
+            "version": "1.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ajax-thumbnail-rebuild/",
+                "reference": "tags/1.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ajax-thumbnail-rebuild.1.12.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ajax-thumbnail-rebuild/"
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
@@ -444,15 +478,15 @@
         },
         {
             "name": "wpackagist-plugin/breadcrumb-navxt",
-            "version": "5.3.1",
+            "version": "5.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/breadcrumb-navxt/",
-                "reference": "tags/5.3.1"
+                "reference": "tags/5.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/breadcrumb-navxt.5.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/breadcrumb-navxt.5.4.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -503,6 +537,26 @@
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
         },
         {
+            "name": "wpackagist-plugin/disable-admin-bar",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-admin-bar/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-admin-bar.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-admin-bar/"
+        },
+        {
             "name": "wpackagist-plugin/disable-comments",
             "version": "1.4",
             "source": {
@@ -524,15 +578,15 @@
         },
         {
             "name": "wpackagist-plugin/enhanced-media-library",
-            "version": "2.1.7",
+            "version": "2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/enhanced-media-library/",
-                "reference": "tags/2.1.7"
+                "reference": "tags/2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enhanced-media-library.2.1.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/enhanced-media-library.2.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -581,6 +635,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/imagemagick-sharpen-resized-images/"
+        },
+        {
+            "name": "wpackagist-plugin/javascript-per-page",
+            "version": "1.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/javascript-per-page/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/javascript-per-page.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/javascript-per-page/"
         },
         {
             "name": "wpackagist-plugin/no-update-nag",
