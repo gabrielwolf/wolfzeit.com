@@ -15,6 +15,7 @@ function setup() {
   add_theme_support('soil-nice-search');
   add_theme_support('soil-jquery-cdn');
   add_theme_support('soil-relative-urls');
+  add_theme_support('soil-google-analytics', 'UA-38973782-4');
 
   // Make theme available for translation
   // Community translations can be found at https://github.com/roots/sage-translations
@@ -37,7 +38,7 @@ function setup() {
   // http://codex.wordpress.org/Function_Reference/set_post_thumbnail_size
   // http://codex.wordpress.org/Function_Reference/add_image_size
   add_theme_support('post-thumbnails');
-  set_post_thumbnail_size( 300, 400, false );
+  set_post_thumbnail_size( 300, 300, false );
 
   // Enable post formats
   // http://codex.wordpress.org/Post_Formats

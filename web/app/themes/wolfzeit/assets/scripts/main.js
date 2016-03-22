@@ -41,7 +41,6 @@
                         var nav2 = $(".secondary_navigation").height();
                         var nav1border = parseInt($(".primary_navigation").css("borderBottomWidth"), 10);
                         var contentHeight = h - nav1 - nav2 - nav1border - 0 + "px";
-                        console.log(contentHeight);
                         return contentHeight;
                     });
                     $(".content, .main, #new-royalslider-1, .main > div").css("height", function() {

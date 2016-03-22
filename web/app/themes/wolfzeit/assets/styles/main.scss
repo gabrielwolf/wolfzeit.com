@@ -58,6 +58,16 @@
 		padding: 6px 0 6px 12px;
 	}
 }
+@media (max-width: 480px) {
+	.secondary_navigation {
+		height: 48px;
+	}
+}
+@media (max-width: 239px) {
+	.secondary_navigation {
+		height: 66px;
+	}
+}
 
 /* --------- Breadcrumbs --------- */
 
@@ -85,7 +95,7 @@
 
 .navbar-nav { margin-top: 2px; }
 .navbar-brand { margin-bottom: 4px; }
-
+.navbar-toggle { margin-right: 40px; }
 
 /* --------- Hilfsklassen --------- */
 
@@ -105,12 +115,18 @@
 .div-table-cell { display: table-cell; }
 
 .gradient-horizontal {
-	background: linear-gradient(to right, #1a0000 0%,#000 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a0000', endColorstr='#000000',GradientType=1 );
+	background: url('../../../../uploads/hintergrund-streifen.png'), linear-gradient(to right, #300c0c 0%,#000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#300c0c', endColorstr='#000000',GradientType=1 );
 }
+
 .gradient-vertical {
-	background: linear-gradient(to bottom, #1a0000 0%,#000 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a0000', endColorstr='#000000',GradientType=0 );
+	background: linear-gradient(to bottom, #300c0c 0%,#000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#300c0c', endColorstr='#000000',GradientType=0 );
+}
+
+/* --------- Fotografieliste --------- */
+.fotografie-liste {
+	font-size: 36px;
 }
 
 /* --------- Kontaktformular --------- */
@@ -152,6 +168,9 @@
 		}
 	}
 }
+
+.table-infinite img { box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.3)!important; }
+
 @media (max-width: $screen-xs-max) {
 	.table-infinite > div > div > {
 		min-width: 300px;

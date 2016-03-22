@@ -8,7 +8,7 @@ body { height: 100%; background: darken($brand-primary, 37%); font-family: 'Quic
 	margin: 0!important;
 	width: 100%;
 	height: 75%;
-	background: #111;
+	background: url('../../../../uploads/hintergrund-streifen.png') darken($brand-primary, 45%);;
 	color: #ccc;
 	box-shadow: inset 0 0 50px 4px rgba(0, 0, 0, 0.8);
 	overflow: auto;

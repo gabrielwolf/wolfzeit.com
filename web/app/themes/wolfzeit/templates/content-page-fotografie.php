@@ -1,10 +1,12 @@
 <?php the_content(); ?>
 
+<div class="fotografie-liste">
+	
 <?php 
     $args = array(
 	'show_option_all'    => '',
 	'orderby'            => 'name',
-	'order'              => 'ASC',
+	'order'              => 'DESC',
 	'style'              => 'none',
 	'show_count'         => 0,
 	'hide_empty'         => 1,
@@ -29,5 +31,7 @@
     );
     wp_list_categories( $args ); 
 ?>
+
+</div>
 
 <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
