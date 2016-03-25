@@ -69,6 +69,7 @@
     "wpackagist-plugin/ajax-thumbnail-rebuild": "*",
     "wpackagist-plugin/animate-it": "*",
     "wpackagist-plugin/asset-queue-manager": "*",
+    "wpackagist-plugin/text-control-2": "*",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/soil": "3.7.0",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2204f974fcfca07dc2b74cd866538162",
-    "content-hash": "77b9159a402b766d5f2f276c3da8a9b4",
+    "hash": "164eccc38a073b8aba8b6e92c56e95dd",
+    "content-hash": "3e6a7f26b8df56da7bd9b7a5926ed030",
     "packages": [
         {
             "name": "composer/installers",
@@ -695,6 +695,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/no-update-nag/"
+        },
+        {
+            "name": "wpackagist-plugin/text-control-2",
+            "version": "2.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/text-control-2/",
+                "reference": "tags/2.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/text-control-2.2.3.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/text-control-2/"
         },
         {
             "name": "wpackagist-plugin/tinymce-advanced",
