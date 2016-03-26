@@ -65,13 +65,13 @@
                             }
                         },
                         spinJs: {
-                          color: '#000' // #rgb or #rrggbb or array of colors
+                            color: '#fff' // #rgb or #rrggbb or array of colors
                         }
                     });
 
                     setContentContainerWithAndHeight();
 
-                    $('.scroll-pane').jScrollPane({
+                    $(".scroll-pane").jScrollPane({
                         autoReinitialise: true,
                         autoReinitialiseDelay: 500,
                         hideFocus: true
@@ -88,11 +88,11 @@
                 });
 
                 /* ------ Suchfeld ------ */
-                $('.search-top').mouseenter(function() {
+                $(".search-top").mouseenter(function() {
                     $(".search-top-field").focus();
                 });
 
-                $('.search-top').mouseleave(function() {
+                $(".search-top").mouseleave(function() {
                     $(".search-top-field").blur();
                 });
 
@@ -105,22 +105,35 @@
         'home': {
             init: function() {
                 // JavaScript to be fired on the home page
-                $(document).ready(function () {
-                  $("#element").introLoader({
-                      animation: {
-                          name: 'doubleLoader',
-                          options: {
-                              exitFx:'fadeOut',
-                              ease: "easeInOutCirc",
-                              style: 'light',
-                              delayBefore: 0,
-                              exitTime: 500,
-                              progbarTime: 700,
-                              progbarDelayAfter: 400,
-                              preventScroll: true,
-                          }
-                      }
-                  });
+                $(document).ready(function() {
+                    $("#element").introLoader({
+                        animation: {
+                            name: 'doubleLoader',
+                            options: {
+                                exitFx: 'fadeOut',
+                                ease: "easeInOutCirc",
+                                style: 'light',
+                                delayBefore: 0,
+                                exitTime: 500,
+                                progbarTime: 700,
+                                progbarDelayAfter: 400,
+                                preventScroll: true,
+                            }
+                        }
+                    });
+                    $("h1, .logo-wolfzeit-knopf").click(function() {
+                        $(".logo-wolfzeit-knopf").animate({
+                            "width": "100%"
+                        }, 1000, function() {
+                            $(".front-page--icon-container").
+                            css("visibility", "visible").
+                            animate({
+                                opacity: 1
+                            }, 500);
+                        });
+
+
+                    });
                 });
             },
             finalize: function() {

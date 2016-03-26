@@ -1,5 +1,5 @@
-html { height: 100%; background: darken($brand-primary, 37%); }
-body { height: 100%; background: darken($brand-primary, 37%); font-family: 'Quicksand', sans-serif; font-weight: 700; font-size: 18px; color: #fff; }
+html { height: 100%; background: darken($brand-primary, 37%); hyphens: auto!important; }
+body { height: 100%; background: darken($brand-primary, 37%); font-family: 'Quicksand', sans-serif; font-size: 18px; color: #fff; }
 
 .content-container {
 	position: fixed;
@@ -17,6 +17,10 @@ body { height: 100%; background: darken($brand-primary, 37%); font-family: 'Quic
 .content { margin: 0; }
 .main > div { width: 100%; height: 100%; }
 
+h3 { margin: 0 0 0 1rem!important; }
+p { text-align: justify; }
+ul { list-style-type: none; margin: 0; padding: 0; }
+
 a:hover, input:hover { transition: all 0.5s ease; }
 input { line-height: normal!important; }
 .form-control::-webkit-input-placeholder { color: white; }
@@ -32,7 +36,7 @@ input { line-height: normal!important; }
 
 .jspHorizontalBar { height: 10px; }
 .jspVerticalBar { width: 10px; }
-.jspVerticalBar, .jspTrack, .jspCorner { background: darken($brand-primary, 15%); }
+.jspVerticalBar, .jspTrack, .jspCorner { background: darken($brand-primary, 35%); }
 .jspDrag {
 	border-radius: 10px;
 	background: $brand-primary;

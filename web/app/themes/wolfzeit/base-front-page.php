@@ -20,7 +20,7 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    <div class="wrap container-fluid content-container nopadding" style="overflow: hidden;" role="document">
+    <div class="wrap container-fluid content-container nopadding" role="document">
       <div class="content row nopadding">
         <main class="main nopadding" role="main">
           <div style="display: table;">
