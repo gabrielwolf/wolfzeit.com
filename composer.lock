@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "192af726f6aafd94e4e82dcc6780a042",
-    "content-hash": "40d2ce8ee0e5a45df2395b5facb158cb",
+    "hash": "46f0193624626bdc49bb116b9225f6d9",
+    "content-hash": "fe89982df768c7e712bb41a75e927775",
     "packages": [
         {
             "name": "composer/installers",
@@ -395,26 +395,6 @@
                 "environment"
             ],
             "time": "2015-12-29 15:10:30"
-        },
-        {
-            "name": "wpackagist-plugin/above-the-fold-optimization",
-            "version": "2.3.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/above-the-fold-optimization/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/above-the-fold-optimization.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/above-the-fold-optimization/"
         },
         {
             "name": "wpackagist-plugin/add-from-server",

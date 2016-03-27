@@ -70,7 +70,6 @@
     "wpackagist-plugin/animate-it": "*",
     "wpackagist-plugin/text-control-2": "*",
     "wpackagist-plugin/bwp-minify": "*",
-    "wpackagist-plugin/above-the-fold-optimization": "*",
     "wpackagist-plugin/options-optimizer": "*",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
