@@ -22,6 +22,9 @@ p { text-align: justify; }
 ul { list-style-type: none; margin: 0; padding: 0; }
 
 a:hover, input:hover { transition: all 0.5s ease; }
+a.weisserlink { color: #ccc; border-bottom: 1px dotted #ccc; }
+a.weisserlink:hover { border-bottom: 1px solid #fff; }
+
 input { line-height: normal!important; }
 .form-control::-webkit-input-placeholder { color: white; }
 .form-control:-moz-placeholder { color: white; }

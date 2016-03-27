@@ -1,6 +1,6 @@
 <?php while (have_posts()) : the_post(); ?>
 
-<h1>W O L F Z E I T.com</h1>
+<h1>W&nbsp;O&nbsp;L&nbsp;F Z&nbsp;E&nbsp;I&nbsp;T.com</h1>
 
 <div class="front-page--icon-container">
 	<ul class="flex-container">
