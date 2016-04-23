@@ -106,6 +106,7 @@
             init: function() {
                 // JavaScript to be fired on the home page
                 $(document).ready(function() {
+
                     $("#element").introLoader({
                         animation: {
                             name: 'doubleLoader',
@@ -121,6 +122,7 @@
                             }
                         }
                     });
+
                     $("h1, .logo-wolfzeit-knopf").click(function() {
                         $(".logo-wolfzeit-knopf").animate({
                             "width": "100%"
@@ -131,9 +133,8 @@
                                 opacity: 1
                             }, 500);
                         });
-
-
                     });
+
                 });
             },
             finalize: function() {
