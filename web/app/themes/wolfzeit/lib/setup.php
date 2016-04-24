@@ -42,7 +42,7 @@ function setup() {
 
   // Enable post formats
   // http://codex.wordpress.org/Post_Formats
-  add_theme_support('post-formats', ['aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio']);
+  // add_theme_support('post-formats', ['aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio']);
 
   // Enable HTML5 markup support
   // http://codex.wordpress.org/Function_Reference/add_theme_support#HTML5
@@ -156,3 +156,41 @@ add_filter('init', function() {
   return true;
 });
 
+add_filter('init', function() {
+  $labels = [
+    'name'                => _x( 'Webdesigns', 'Post Type General Name', 'text_domain' ),
+    'singular_name'       => _x( 'Webdesign', 'Post Type Singular Name', 'text_domain' ),
+    'menu_name'           => __( 'Webdesign', 'text_domain' ),
+    'parent_item_colon'   => __( 'Parent Item:', 'text_domain' ),
+    'all_items'           => __( 'Alle Projekte', 'text_domain' ),
+    'view_item'           => __( 'Projekt ansehen', 'text_domain' ),
+    'add_new_item'        => __( 'Neues Projekt anlegen', 'text_domain' ),
+    'add_new'             => __( 'Projekt hinzufügen', 'text_domain' ),
+    'edit_item'           => __( 'Projekt editieren', 'text_domain' ),
+    'update_item'         => __( 'Projekt updaten', 'text_domain' ),
+    'search_items'        => __( 'Projekt suchen', 'text_domain' ),
+    'not_found'           => __( 'Projekt nicht gefunden', 'text_domain' ),
+    'not_found_in_trash'  => __( 'Projekt nicht im Papierkorb gefunden', 'text_domain' ),
+  ];
+  $args = [
+    'label'               => __( 'webdesign', 'text_domain' ),
+    'description'         => __( 'Design und Entwicklung einer Webseite.', 'text_domain' ),
+    'labels'              => $labels,
+    'supports'            => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'post-formats', ),
+    'taxonomies'          => array( 'category', 'post_tag' ),
+    'hierarchical'        => false,
+    'public'              => true,
+    'show_ui'             => true,
+    'show_in_menu'        => true,
+    'show_in_nav_menus'   => true,
+    'show_in_admin_bar'   => true,
+    'menu_position'       => 5,
+    'can_export'          => true,
+    'has_archive'         => true,
+    'exclude_from_search' => false,
+    'publicly_queryable'  => true,
+    'capability_type'     => 'post',
+  ];
+  register_post_type( 'webdesign', $args );
+  return true;
+});

@@ -51,6 +51,16 @@
                     $(".content").css("width", "100%");
                 }
 
+                function setHeightWebdesign() {
+                    var h = $(window).height();
+                    var navbar_height = $(".banner").css("height").replace('px', '');
+                    var secondary_navigation_height = $(".secondary_navigation").css("height").replace('px', '');
+                    var full_height = h - navbar_height - secondary_navigation_height;
+                    $(".post-webdesign-info, .full-height, .col-sm-9").css("min-height", full_height);
+                    $(".royalSlider").royalSlider('updateSliderSize', true);
+                    $(".royalSlider").royalSlider('updateSliderSize', true);
+                }
+
                 $(document).ready(function() {
 
                     $("#element").introLoader({
@@ -70,6 +80,7 @@
                     });
 
                     setContentContainerWithAndHeight();
+                    setHeightWebdesign();
 
                     $(".scroll-pane").jScrollPane({
                         autoReinitialise: true,
@@ -85,6 +96,7 @@
 
                 $(window).resize(function() {
                     setContentContainerWithAndHeight();
+                    setHeightWebdesign();
                 });
 
                 /* ------ Suchfeld ------ */

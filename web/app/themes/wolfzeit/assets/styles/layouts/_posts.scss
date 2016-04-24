@@ -1,0 +1,52 @@
+.post-webdesign-info {
+    display: table-cell;
+    background: rgba(229, 36, 39, 0.19);
+    color: #fff;
+    min-height: 500px;
+    text-align: left;
+    margin: 0!important;
+    padding: 0!important;
+    h2 {
+        text-align: left;
+        margin: 0.8ex 1ex;
+        text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+    }
+    li {
+        display: table;
+        clear: both;
+        width: 100%;
+        padding: 2ex!important;
+        background: rgba(229, 36, 39, 0.18);
+        margin-bottom: 1ex;
+        font-size: 1.5rem;
+        dl {
+            margin: 0;
+        }
+        dt {
+            text-align: center;
+            margin-bottom: 0.5ex;
+            display: block;
+            font-size: 1.3rem;
+            color: #aaa;
+        }
+        dd {
+            padding: 0;
+            text-align: center;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+    }
+    li:first-child,
+    li:nth-child(2) {
+        dt {
+            display: none;
+        }
+    }
+    li:first-child,
+    li:nth-child(3) {
+        dd {
+            text-align: justify
+        }
+    }
+}

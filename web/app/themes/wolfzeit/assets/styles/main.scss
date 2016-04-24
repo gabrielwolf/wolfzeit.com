@@ -203,6 +203,20 @@ img.logo-wolfzeit-knopf {
 	z-index: 20;
 }
 
+/* -------- Webdesign Slider Bullets --------- */
+
+.rsUni .rsBullet span {
+	background: darken($brand-primary, 30%)!important;
+}
+
+.rsUni .rsBullet.rsNavSelected span {
+	background: $brand-primary!important;
+}
+
+.rsInLaptopContainer {
+	margin-top: 2ex;
+}
+
 /* --------- Fotografieliste --------- */
 .fotografie-liste {
 	font-size: 36px;
