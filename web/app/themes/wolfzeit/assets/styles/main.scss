@@ -69,7 +69,8 @@
 	body.about .secondary_navigation,
 	body.kontakt .secondary_navigation,
 	body.archive.category .secondary_navigation,
-	body.impressum .secondary_navigation {
+	body.impressum .secondary_navigation,
+	body.single-webdesign .secondary_navigation {
 	    height: 30px;
 	}
 }
@@ -77,7 +78,8 @@
 	.secondary_navigation {
 		height: 66px;
 	}
-	body.home .secondary_navigation {
+	body.home .secondary_navigation,
+	body.single-webdesign .secondary_navigation {
 	    height: 30px;
 	}
 }
@@ -146,6 +148,17 @@
 .size-post-thumbnail:hover {
     transform: scale(1.03);
 }
+
+.webdesign-link .size-post-thumbnail {
+	filter: grayscale(1);
+	transform: scale(0.97);
+}
+
+.webdesign-link .size-post-thumbnail:hover {
+	filter: grayscale(0);
+    transform: scale(1);
+}
+
 
 h1, img.logo-wolfzeit-knopf { cursor: pointer; }
 img.logo-wolfzeit-knopf {

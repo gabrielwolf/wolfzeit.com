@@ -5,9 +5,9 @@
             <div class="col-sm-3 post-webdesign-info">
               <div class="full-height" style="display: table;">
                 <div style="display: table-row; text-align: center;">
-                  <div style="display: table-cell; vertical-align: middle;">
+                  <div style="display: table-cell; vertical-align: middle; padding-bottom: 5ex;">
                     <header class="post-header-webdesign">
-                        <h2 class="entry-title"><a class="menuelink" href="javascript:history.back()"><<</a> <?php the_title(); ?></h2>
+                        <h2 class="entry-title"><a href="javascript:history.back()"><<</a> <?php the_title(); ?></h2>
                         <ul>
                           <li>
                             <dl>

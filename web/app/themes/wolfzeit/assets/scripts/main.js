@@ -92,6 +92,8 @@
                         background: "#fff"
                     });
 
+                    setHeightWebdesign();
+
                 });
 
                 $(window).resize(function() {
