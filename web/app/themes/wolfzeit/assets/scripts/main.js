@@ -61,6 +61,16 @@
                     $(".royalSlider").royalSlider('updateSliderSize', true);
                 }
 
+                function setHeightVideo() {
+                    var h = $(window).height();
+                    var navbar_height = $(".banner").css("height").replace('px', '');
+                    var secondary_navigation_height = $(".secondary_navigation").css("height").replace('px', '');
+                    var full_height = h - navbar_height - secondary_navigation_height;
+                    $(".content, .main, #new-royalslider-4, .main > div").css("height", full_height);
+                    $(".royalSlider").royalSlider('updateSliderSize', true);
+                    $(".royalSlider").royalSlider('updateSliderSize', true);
+                }
+
                 $(document).ready(function() {
 
                     $("#element").introLoader({
@@ -81,6 +91,7 @@
 
                     setContentContainerWithAndHeight();
                     setHeightWebdesign();
+                    setHeightVideo();
 
                     $(".scroll-pane").jScrollPane({
                         autoReinitialise: true,
@@ -93,12 +104,14 @@
                     });
 
                     setHeightWebdesign();
+                    setHeightVideo();
 
                 });
 
                 $(window).resize(function() {
                     setContentContainerWithAndHeight();
                     setHeightWebdesign();
+                    setHeightVideo();
                 });
 
                 /* ------ Suchfeld ------ */

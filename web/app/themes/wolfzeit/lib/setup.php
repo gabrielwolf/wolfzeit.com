@@ -157,6 +157,45 @@ add_filter('init', function() {
 });
 
 add_filter('init', function() {
+    $labels = [
+      'name'                => _x( 'Filme', 'Post Type General Name', 'text_domain' ),
+      'singular_name'       => _x( 'Film', 'Post Type Singular Name', 'text_domain' ),
+      'menu_name'           => __( 'Filme', 'text_domain' ),
+      'parent_item_colon'   => __( 'Parent Item:', 'text_domain' ),
+      'all_items'           => __( 'Alle Filme', 'text_domain' ),
+      'view_item'           => __( 'Film ansehen', 'text_domain' ),
+      'add_new_item'        => __( 'Neuen Film anlegen', 'text_domain' ),
+      'add_new'             => __( 'Film hinzufügen', 'text_domain' ),
+      'edit_item'           => __( 'Film editieren', 'text_domain' ),
+      'update_item'         => __( 'Film updaten', 'text_domain' ),
+      'search_items'        => __( 'Film suchen', 'text_domain' ),
+      'not_found'           => __( 'Film nicht gefunden', 'text_domain' ),
+      'not_found_in_trash'  => __( 'Film nicht im Papierkorb gefunden', 'text_domain' )
+      ];
+      $args = [
+        'label'               => __( 'film', 'text_domain' ),
+        'description'         => __( 'Film', 'text_domain' ),
+        'labels'              => $labels,
+        'supports'            => [ 'title', 'editor', 'excerpt', 'thumbnail', 'revisions' ],
+        'taxonomies'          => [ 'category', 'post_tag' ],
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 6,
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'post'
+      ];
+      register_post_type( 'film', $args );
+  return true;
+});
+
+add_filter('init', function() {
   $labels = [
     'name'                => _x( 'Webdesigns', 'Post Type General Name', 'text_domain' ),
     'singular_name'       => _x( 'Webdesign', 'Post Type Singular Name', 'text_domain' ),

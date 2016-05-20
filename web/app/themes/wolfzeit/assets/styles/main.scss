@@ -272,6 +272,10 @@ body.about .main {
 .royalSlider { text-align: left; }
 .visibleNearbyZoom { padding: 0; }
 
+.rsDefault, .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs {
+    background: #060606;
+}
+
 /* --------- Für alle Seiten mit der Thumbnailleiste --------- */
 
 .table-infinite {
