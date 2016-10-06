@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8e2dfdf816da4942000257872b5d18d6",
-    "content-hash": "72ea9444d9728d81e2bc57bc7e59b792",
+    "hash": "2b0b498d30a0f0a4d04878957c6a145b",
+    "content-hash": "d9a64f88e91a073672e26f3fe1dce220",
     "packages": [
         {
             "name": "composer/installers",
@@ -419,15 +419,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.9",
+            "version": "4.4.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/4.4.9"
+                "reference": "tags/4.4.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.10.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -519,15 +519,15 @@
         },
         {
             "name": "wpackagist-plugin/breadcrumb-navxt",
-            "version": "5.5.1",
+            "version": "5.5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/breadcrumb-navxt/",
-                "reference": "tags/5.5.1"
+                "reference": "tags/5.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/breadcrumb-navxt.5.5.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/breadcrumb-navxt.5.5.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -738,26 +738,6 @@
             "homepage": "https://wordpress.org/plugins/options-optimizer/"
         },
         {
-            "name": "wpackagist-plugin/redirection",
-            "version": "2.4.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/2.4.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.2.4.5.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/redirection/"
-        },
-        {
             "name": "wpackagist-plugin/text-control-2",
             "version": "2.3.1",
             "source": {
@@ -796,6 +776,20 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
+        },
+        {
+            "name": "wpml",
+            "version": "3.5.3.1",
+            "dist": {
+                "type": "zip",
+                "url": "http://www.wolfzeit.net/plugins/sitepress-multilingual-cms.3.5.3.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
         }
     ],
     "packages-dev": [],

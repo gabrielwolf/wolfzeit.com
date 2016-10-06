@@ -67,3 +67,6 @@ add_filter('pre_get_posts','SearchFilter');
 add_post_type_support('page', 'excerpt');
 
 remove_action( 'wp_head', 'wp_no_robots' );
+
+// Language Switcher ohne CSS
+define('ICL_DONT_LOAD_LANGUAGE_SELECTOR_CSS', true);

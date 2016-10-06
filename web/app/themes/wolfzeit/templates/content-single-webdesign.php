@@ -22,25 +22,26 @@
                           ?>
                           <li>
                             <dl>
-                              <dt>Leistungen von W&nbsp;O&nbsp;L&nbsp;F Z&nbsp;E&nbsp;I&nbsp;T</dt>
+                              <dt><?= __('My work', 'sage'); ?>
+                              </dt>
                               <dd><?php the_field('leistungen_von_wolfzeit'); ?></dd>
                             </dl>
                           </li>
                           <li>
                             <dl>
-                              <dt>Umfang</dt>
+                              <dt><?= __('Extent', 'sage'); ?></dt>
                               <dd><?php the_field('umfang'); ?></dd>
                             </dl>
                           </li>
                           <li>
                             <dl>
-                              <dt>Technik</dt>
+                              <dt><?= __('Technics', 'sage'); ?></dt>
                               <dd><?php the_field('technik'); ?></dd>
                             </dl>
                           </li>
                           <li>
                             <dl>
-                              <dt>Jahr</dt>
+                              <dt><?= __('Year', 'sage'); ?></dt>
                               <dd><?php the_field('jahr'); ?></dd>
                             </dl>
                           </li>

@@ -70,7 +70,15 @@
 	body.kontakt .secondary_navigation,
 	body.archive.category .secondary_navigation,
 	body.impressum .secondary_navigation,
-	body.single-webdesign .secondary_navigation {
+	body.single-webdesign .secondary_navigation,
+    body.page-id-537 .secondary_navigation,
+    body.pricing .secondary_navigation,
+    body.timeline .secondary_navigation,
+    body.about .secondary_navigation,
+    body.contact .secondary_navigation,
+    body.archive.category .secondary_navigation,
+    body.legal-info .secondary_navigation,
+    body.single-webdesign .secondary_navigation {
 	    height: 30px;
 	}
 }
@@ -111,6 +119,11 @@
 .navbar-nav { margin-top: 2px; }
 .navbar-brand { margin-bottom: 4px; }
 .navbar-toggle { margin-right: 40px; }
+
+
+/* --------- Flaggen --------- */
+
+// img[alt=de], img[alt=en] { margin-bottom: 3px!important }
 
 /* --------- Hilfsklassen --------- */
 
@@ -238,7 +251,7 @@ img.logo-wolfzeit-knopf {
 
 /* --------- Preise --------- */
 
-body.preise .content {
+body.preise .content, body.pricing .content {
     background: url('../../../../uploads/preise-voegel-im-abendrot.jpg') 50% 50% / cover no-repeat, rgba(0,0,0,0.8);
     text-shadow: 0 1px 1px #000;
     & h2 {

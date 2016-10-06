@@ -3,7 +3,7 @@
 
 <?php
 $my_query = new WP_Query( array(
-	'post_type' => array( 'shooting', 'webdesign' ),
+	'post_type' => array( 'shooting', 'webdesign', 'film' ),
 	'posts_per_page' => -1
 ) );
 

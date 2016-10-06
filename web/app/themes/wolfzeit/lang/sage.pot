@@ -101,3 +101,23 @@ msgstr ""
 #. Template Name of the plugin/theme
 msgid "Custom Template"
 msgstr ""
+
+#. Webdesign Details Project
+msgid "Project"
+msgstr ""
+
+#. Webdesign Details Leistungen
+msgid "My work"
+msgstr ""
+
+#. Webdesign Details Jahr
+msgid "Year"
+msgstr ""
+
+#. Webdesign Details Umfang
+msgid "Extent"
+msgstr ""
+
+#. Webdesign Details Technik
+msgid "Technics"
+msgstr ""
