@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><img alt="W O L F Z E I T Logo" onerror="this.onerror=null; this.src='<?php echo get_home_url(); ?>/app/uploads/logo.svg'" style="max-width:100px; margin: -4px -10px auto auto;" src="<?php echo get_home_url(); ?>/app/uploads/logo.svg"></a><!-- <a class="navbar-brand" href="<?php echo get_home_url(); ?>">W O L F Z E I T ⇢ Dein Fotograf, Designer & Tonmeister in Berlin und München</a> -->
+      <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><img alt="W O L F Z E I T Logo" onerror="this.onerror=null; this.src='<?php echo content_url(); ?>/uploads/logo.svg'" style="max-width:100px; margin: -4px -10px auto auto;" src="<?php echo get_home_url(); ?>/app/uploads/logo.svg"></a><!-- <a class="navbar-brand" href="<?php echo get_home_url(); ?>">W O L F Z E I T ⇢ Dein Fotograf, Designer & Tonmeister in Berlin und München</a> -->
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
