@@ -87,9 +87,11 @@
     "wpackagist-plugin/bwp-minify": "*",
     "wpackagist-plugin/options-optimizer": "*",
     "wpackagist-plugin/advanced-custom-fields": "*",
+    "wpackagist-plugin/html-editor-syntax-highlighter": "*",
+    "wpackagist-plugin/wp-mailgun-smtp": "*",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "roots/soil": "3.7.0",
+    "roots/soil": "3.7.1",
     "royalslider": "3.3.1",
     "wpml": "3.5.3.1"
   },
