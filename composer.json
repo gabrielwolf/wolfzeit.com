@@ -52,10 +52,10 @@
       "package": {
         "name": "wpml",
         "type": "wordpress-plugin",
-        "version": "3.5.3.1",
+        "version": "3.6.2",
         "dist": {
           "type": "zip",
-          "url": "http://www.wolfzeit.net/plugins/sitepress-multilingual-cms.3.5.3.1.zip"
+          "url": "http://www.wolfzeit.net/plugins/sitepress-multilingual-cms.3.6.2.zip"
         },
         "require" : {
           "composer/installers": "~1.0"
@@ -67,7 +67,7 @@
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.6.1",
+    "johnpbloch/wordpress": "4.7.1",
     "wpackagist-plugin/classic-smilies": "*",
     "wpackagist-plugin/no-update-nag": "*",
     "wpackagist-plugin/tinymce-advanced": "*",
@@ -89,11 +89,12 @@
     "wpackagist-plugin/advanced-custom-fields": "*",
     "wpackagist-plugin/html-editor-syntax-highlighter": "*",
     "wpackagist-plugin/wp-mailgun-smtp": "*",
+    "wpackagist-plugin/jonradio-current-year-and-copyright-shortcodes": "*",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/soil": "3.7.1",
     "royalslider": "3.3.1",
-    "wpml": "3.5.3.1"
+    "wpml": "3.6.2"
   },
   "extra": {
     "installer-paths": {
