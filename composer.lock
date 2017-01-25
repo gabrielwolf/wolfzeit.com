@@ -462,15 +462,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.11.1",
+            "version": "2.3.11.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.11.1"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.11.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -482,15 +482,15 @@
         },
         {
             "name": "wpackagist-plugin/animate-it",
-            "version": "2.1.6",
+            "version": "2.1.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/animate-it/",
-                "reference": "tags/2.1.6"
+                "reference": "tags/2.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/animate-it.2.1.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/animate-it.2.1.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -582,15 +582,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.6",
+            "version": "4.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.6"
+                "reference": "tags/4.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -642,15 +642,15 @@
         },
         {
             "name": "wpackagist-plugin/enhanced-media-library",
-            "version": "2.3.6",
+            "version": "2.4.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/enhanced-media-library/",
-                "reference": "tags/2.3.6"
+                "reference": "tags/2.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enhanced-media-library.2.3.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/enhanced-media-library.2.4.2.zip",
                 "reference": null,
                 "shasum": null
             },
