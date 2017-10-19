@@ -64,10 +64,10 @@
     }
   ],
   "require": {
-    "php": ">=5.5",
+    "php": ">=7.0",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.7.2",
+    "johnpbloch/wordpress": "4.8.2",
     "wpackagist-plugin/classic-smilies": "*",
     "wpackagist-plugin/no-update-nag": "*",
     "wpackagist-plugin/tinymce-advanced": "*",
@@ -92,7 +92,7 @@
     "wpackagist-plugin/jonradio-current-year-and-copyright-shortcodes": "*",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "roots/soil": "3.7.1",
+    "roots/soil": "*",
     "royalslider": "3.3.1",
     "wpml": "3.6.2"
   },
