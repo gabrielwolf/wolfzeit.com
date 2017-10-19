@@ -9,11 +9,13 @@
         <p>Design von Flyer, Visitenkarten, Konzertplakat und Webseite.</p>
       </li>
       <li class="flex-item-front-page">
-        <img src="<?php echo get_home_url(); ?>/app/uploads/icon-eos.png" alt="Mein Wacom Zeichenbrett" />
-        <p>Professionell fotografiert nicht nur für Orchester, Wettbewerb und Konzert.</p>
+        <a class="weisserlink" href="<?php echo get_home_url(); ?>/fotografie">
+            <img src="<?php echo get_home_url(); ?>/app/uploads/icon-eos.png" alt="Mein Wacom Zeichenbrett" />
+            <p>Professionell fotografiert nicht nur für Orchester, Wettbewerb und Konzert.</p>
+        </a>
       </li>
       <li class="flex-item-front-page">
-        <img src="<?php echo get_home_url(); ?>/app/uploads/icon-schoeps.png" alt="Meine Schoeps MK4" />
+        <img src="<?php echo get_home_url(); ?>/app/uploads/icon-schoeps.png" alt="Meine Mikros" />
         <p>Recording für SoundCloud, YouTube, Podcast und CD.</p>
       </li>
     </ul>

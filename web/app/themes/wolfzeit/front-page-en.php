@@ -9,8 +9,10 @@
         <p>Design of flyers, calling cards, posters and websites.</p>
       </li>
       <li class="flex-item-front-page">
-        <img src="<?php echo content_url(); ?>/uploads/icon-eos.png" alt="My Wacom" />
-        <p>Professional portraits not just for orchestra, competition and concert.</p>
+        <a class="weisserlink" href="<?php echo get_home_url(); ?>/fotografie">
+          <img src="<?php echo content_url(); ?>/uploads/icon-eos.png" alt="My Wacom" />
+          <p>Professional portraits not just for orchestra, competition and concert.</p>
+        </a>
       </li>
       <li class="flex-item-front-page">
         <img src="<?php echo content_url(); ?>/uploads/icon-schoeps.png" alt="My Schoeps MK4" />
