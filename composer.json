@@ -37,13 +37,13 @@
       "package": {
         "name": "royalslider",
         "type": "wordpress-plugin",
-        "version": "3.3.1",
+        "version": "3.3.5",
         "dist": {
           "type": "zip",
-          "url": "http://jibazee.net/plugins/new-royalslider.zip"
+          "url": "https://wolfzeit.net/plugins/new-royalslider.zip"
         },
         "require" : {
-          "composer/installers": "~1.0.12"
+          "composer/installers": "^1.4"
         }
       }
     },
@@ -65,7 +65,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "composer/installers": "~1.0.12",
+    "composer/installers": "*",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.8.2",
     "wpackagist-plugin/classic-smilies": "*",
@@ -93,7 +93,7 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/soil": "*",
-    "royalslider": "3.3.1",
+    "royalslider": "3.3.5",
     "wpml": "3.6.2"
   },
   "extra": {
