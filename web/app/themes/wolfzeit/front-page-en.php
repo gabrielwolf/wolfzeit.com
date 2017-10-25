@@ -5,8 +5,10 @@
 <div class="front-page--icon-container">
     <ul class="flex-container">
       <li class="flex-item-front-page">
-        <img src="<?php echo content_url(); ?>/uploads/icon-wacom.png" alt="My Canon EOS" />
-        <p>Design of flyers, calling cards, posters and websites.</p>
+        <a class="weisserlink" href="<?php echo get_home_url(); ?>/printdesign">
+          <img src="<?php echo content_url(); ?>/uploads/icon-wacom.png" alt="My Canon EOS" />
+          <p>Design of flyers, calling cards, posters and websites.</p>
+        </a>
       </li>
       <li class="flex-item-front-page">
         <a class="weisserlink" href="<?php echo get_home_url(); ?>/fotografie">
