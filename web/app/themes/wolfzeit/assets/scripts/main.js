@@ -66,7 +66,7 @@
                     var navbar_height = $(".banner").css("height").replace('px', '');
                     var secondary_navigation_height = $(".secondary_navigation").css("height").replace('px', '');
                     var full_height = h - navbar_height - secondary_navigation_height;
-                    $(".content, .main, .royalSlider, .main > div").css("height", full_height);
+                    // $(".content, .main, .royalSlider, .main > div").css("height", full_height);
                     $(".royalSlider").royalSlider('updateSliderSize', true);
                     $(".royalSlider").royalSlider('updateSliderSize', true);
                 }
