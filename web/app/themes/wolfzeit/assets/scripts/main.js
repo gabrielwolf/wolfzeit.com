@@ -63,12 +63,16 @@
 
                 function setHeightVideo() {
                     var h = $(window).height();
+                    var w = $(window).width();
                     var navbar_height = $(".banner").css("height").replace('px', '');
                     var secondary_navigation_height = $(".secondary_navigation").css("height").replace('px', '');
-                    var full_height = h - navbar_height - secondary_navigation_height;
-                    // $(".content, .main, .royalSlider, .main > div").css("height", full_height);
-                    $(".royalSlider").royalSlider('updateSliderSize', true);
-                    $(".royalSlider").royalSlider('updateSliderSize', true);
+                    var full_height = h - navbar_height - secondary_navigation_height - 6;
+                    var full_width = w;
+                    // $(".content, .main, .main > div").css("height", full_height);
+                    $(".my-vimeo-container").attr({
+                        width: full_width,
+                        height: full_height
+                    });
                 }
 
                 $(document).ready(function() {
