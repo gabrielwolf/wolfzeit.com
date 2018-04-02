@@ -67,7 +67,7 @@
     "php": ">=7.0",
     "composer/installers": "*",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.8.2",
+    "johnpbloch/wordpress": "4.9.1",
     "wpackagist-plugin/classic-smilies": "*",
     "wpackagist-plugin/no-update-nag": "*",
     "wpackagist-plugin/tinymce-advanced": "*",
