@@ -6,18 +6,18 @@
     <ul class="flex-container">
       <li class="flex-item-front-page">
         <a class="weisserlink" href="<?php echo get_home_url(); ?>/printdesign">
-          <img src="<?php echo content_url(); ?>/uploads/icon-wacom.png" alt="My Canon EOS" />
+          <img src="<?php echo content_url(); ?>/uploads/icon-wacom.png" alt="Wacom Intuos Special Edition" />
           <p>Design of flyers, calling cards, posters and websites.</p>
         </a>
       </li>
       <li class="flex-item-front-page">
         <a class="weisserlink" href="<?php echo get_home_url(); ?>/fotografie">
-          <img src="<?php echo content_url(); ?>/uploads/icon-eos.png" alt="My Wacom" />
+          <img src="<?php echo content_url(); ?>/uploads/icon-eos.png" alt="Canon EOS" />
           <p>Professional portraits not just for orchestra, competition and concert.</p>
         </a>
       </li>
       <li class="flex-item-front-page">
-        <img src="<?php echo content_url(); ?>/uploads/icon-schoeps.png" alt="My Schoeps MK4" />
+        <img src="<?php echo content_url(); ?>/uploads/icon-schoeps.png" alt="Schoeps Mics" />
         <p>Recording for SoundCloud, YouTube, Podcast and CD.</p>
       </li>
     </ul>

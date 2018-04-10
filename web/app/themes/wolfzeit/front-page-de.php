@@ -6,18 +6,18 @@
     <ul class="flex-container">
       <li class="flex-item-front-page">
         <a class="weisserlink" href="<?php echo get_home_url(); ?>/printdesign">
-          <img src="<?php echo get_home_url(); ?>/app/uploads/icon-wacom.png" alt="Meine Canon EOS" />
+          <img src="<?php echo get_home_url(); ?>/app/uploads/icon-wacom.png" alt="Wacom Intuos Special Edition" />
           <p>Design von Flyer, Visitenkarten, Konzertplakat und Webseite.</p>
         </a>
       </li>
       <li class="flex-item-front-page">
         <a class="weisserlink" href="<?php echo get_home_url(); ?>/fotografie">
-            <img src="<?php echo get_home_url(); ?>/app/uploads/icon-eos.png" alt="Mein Wacom Zeichenbrett" />
+            <img src="<?php echo get_home_url(); ?>/app/uploads/icon-eos.png" alt="Canon EOS" />
             <p>Professionell fotografiert nicht nur für Orchester, Wettbewerb und Konzert.</p>
         </a>
       </li>
       <li class="flex-item-front-page">
-        <img src="<?php echo get_home_url(); ?>/app/uploads/icon-schoeps.png" alt="Meine Mikros" />
+        <img src="<?php echo get_home_url(); ?>/app/uploads/icon-schoeps.png" alt="Schoeps Mikrophone" />
         <p>Recording für SoundCloud, YouTube, Podcast und CD.</p>
       </li>
     </ul>
